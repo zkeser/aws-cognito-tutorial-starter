@@ -84,6 +84,9 @@ export default class ProductAdmin extends Component {
         <section className="section">
           <div className="container">
             <h1>Product Admin</h1>
+            <hr/>
+            <p id="change">Change admin password here: <span>  <a href="/changepassword" className="button is-light">Change Admin Password</a></span></p> 
+              <hr/>
             <p className="subtitle is-5">Add and remove products using the form below:</p>
             <br />
             <div className="columns">
@@ -99,6 +102,7 @@ export default class ProductAdmin extends Component {
                         onChange={this.onAddProductNameChange}
                       />
                     </div>
+          
                     <div className="control">
                       <input 
                         className="input is-medium"

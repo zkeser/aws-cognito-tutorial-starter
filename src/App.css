@@ -61,3 +61,10 @@ body {
 .buttons {
   margin-left: 1em;
 }
+
+.buttons{
+  margin-left: 1em;
+} 
+#change{
+  margin: 1em 0 2em ;
+}
